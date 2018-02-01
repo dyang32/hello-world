@@ -1,0 +1,21 @@
+#!/bin/bash
+# Week 3 Homework, Chapter 3
+# Don Yang
+# CSCI 2461-70 Computer Networking - Linux
+
+# List all devices in /Dev folder
+cd /dev; ls -ls
+
+# Display information about block devices
+blkid
+
+# List information about all available block devices
+lsblk
+
+# Displays information and list about block devices
+blkid; lsblk
+
+# List files in the /sys folder that have "sd" in them
+# ----Press Spacebar to scroll down and press Ctrl+z to end----
+find /sys | grep sd | less
+
