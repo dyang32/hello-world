@@ -1,0 +1,50 @@
+#! /bin/bash
+# Week 2 Homework
+# Don Yang
+# CSCI 2461-70 Computer Networking - Linux
+
+# Moves you to your home directory
+echo You are in your home directory
+cd
+
+# Checks where you are in the current directory
+pwd
+
+# List the contents of your directory
+ls
+
+# Moves you to the Documents directory
+cd Documents
+
+# Creates and remove a folder named Bin in the Documents folder
+mkdir Bin
+rmdir Bin
+
+# Creates a txt file named myFirstScript
+touch myFirstScript.txt
+
+# Copies myFirstScript.txt and renames it to myScript.txt
+cp myFirstScript.txt myScript.txt
+
+# removes mySctipt.txt file
+rm myScript.txt
+
+# Searches the current directory for files that contain the word Bin and displays the line
+grep Bin *
+
+# Tells you what kind of file myFirstScript.txt is
+file myFirstScript.txt
+
+# Looks for the file myFirstScript.txt in the current directory
+find myFirstScript.txt
+
+# View the first and last 10 lines of the myFirstScript.txt file
+head myFirstScript.txt
+tail myFirstScript.txt
+
+# Looks for any hidden files in the current directory
+ls -a
+
+# Displays all text in myFirstScript.txt
+cat myFirstScript.txt
+

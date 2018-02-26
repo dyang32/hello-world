@@ -1,0 +1,9 @@
+Don Yang
+Peer Review
+For my peer review I chose to review Pavel's script
+
+I like how Pavel chose to echo what his commands do, its a good way to let the user visually see what's happening.
+He used a few commands in a way that I didn't think about, like diff file1 file2 > file3
+I did run into one problem with Pavel's script, I couldn't run it on my terminal.
+When trying to run it I kept getting a "bad interpreter: No such file or directory" error.
+I'm not sure if maybe I'm just not running it right or if there is something wrong with his script.
